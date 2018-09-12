@@ -1,0 +1,48 @@
+div.categoryButton {
+    position:relative;
+    margin: 15px 22px;
+    padding: 13px;
+    display: block;
+    background-color: #d3ede8;
+}
+
+div.top {
+position:relative;
+left:1%;
+top:2%;
+height:20%;
+width:98%;
+background-color: #d3ede8;
+align:center;
+}
+
+div.left {
+position:relative;
+left:1%;
+top:0%;
+height:78%;
+width:20%;
+background-color: #aaabbb;
+}
+
+div.right {
+position:relative;
+left:22%;
+top:-78%;
+height:78%;
+width:77%;
+background-color: #aaaddd;
+}
+
+div.main {
+position:relative;
+top:2%;
+align:center;
+}
+
+
+div.logout {
+position:relative;
+left:70%;
+top:30%;
+}

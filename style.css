@@ -1,0 +1,312 @@
+@-ms-viewport
+{
+	width:device-width;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+html
+{
+	padding:0;
+	border:0px none;
+}
+
+body
+{
+	padding:0;
+	border:0px none;
+	margin: 0;
+	font-family: Times New Roman;
+	font-size: 16px;
+	background-image:url(.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-color:skyblue;
+
+}
+
+fieldset
+{
+	-moz-border-radius:7px;
+	border-radius:7px;
+	-webkit-border-radius:7px;
+	border:1px #dddddd solid;
+	padding:10px;
+	width:450px;
+	margin-top:75px;
+	margin-left:-200px;
+	
+}
+
+fieldset legend
+{
+	border:1px #1a6f93 solid;
+	color:black;
+	font-family:Times New Roman;
+	font-weight:none;
+	font-size:20px;
+	padding-right:5px;
+	padding-left:5px;
+	padding-top:2px;
+	padding-bottom:2px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	background-color:white;
+}
+
+label
+{
+	width:90px;
+	padding-left:20px;
+	margin:5px;
+	float:left;
+	text-align:left;
+	padding:20px;
+	display:inline-block;
+}
+
+input,textarea
+{
+	margin-left:40px;
+	padding:0px;
+	float:left;
+}
+
+br
+{
+	clear:left;
+}
+
+h1
+{
+	text-align:center;
+	margin-left:0px;
+	margin-top:0px;
+	text-color:yellow;
+}
+
+
+h2
+{
+	margin-left:1000px;
+	background-color:white;
+	background-size:100% 50%;
+		
+}
+
+h3
+{
+	margin-left:1100px;
+	background-color:white;
+	background-size:100% 50%;
+	margin-left:1100px;	
+}
+
+h4
+{
+	text-align:center;
+	margin-left:0px;
+	margin-top:0px;
+	text-color:yellow;
+}
+p
+{
+	text-align:center;
+}
+
+form
+{
+	margin-left:1000px;
+}
+
+#dem
+{
+	text-shadow: 5px 10px 10px red,6px -2px 0px yellow;
+	margin-left:-20px;
+	margin-top:3px;
+	font-family: Times New Roman;
+	color: black;
+	background-image:url(i.png);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	height:60px;
+	width:1319px;
+	font-size:22px;
+	border-style:tansparent;
+	border-color:none;
+}
+
+
+	
+#shadow
+{
+	background-size:100% 100%;
+	-webkit-animation:mymove 5s infinite;
+	animation:mymove 5s infinite;
+}
+	/*@-webkit-keyframes mymove{50%{text-shadow:10px 20px 30px black;}}
+	@keyframes mymove{50%{text-shadow:10px 20px 30px black;}}*/
+	@-webkit-keyframes mymove{from{background-color:seagreen;}to{background-color:turquoise;}}
+	@keyframes mymove{from{background-color:seagreen;}to{background-color:turquoise;}}
+
+.mainnav nav
+{
+	background-color: #000000;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.mainnav nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.mainnav nav ul li
+{
+	display: inline-block;
+}
+.mainnav nav ul li:hover
+{
+	background-color: #999;/*grey*/
+}
+.mainnav nav ul li a,visited
+{
+	color: #FFF;/*white*/
+	display: block;
+	padding: 15px;
+}
+.mainnav nav ul li a:hover
+{
+	display: block;
+	text-shadow:"";
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-0-transition: all 0.3s ease 0s;
+	color: #33CCFF;/*blue*/
+}
+.mainnav nav ul li:hover ul
+{
+	background-color: #000000;
+	display: block;
+	color: #33CCFF;
+}
+.mainnav nav ul ul
+{
+	display: none;
+	position: absolute;
+}
+.mainnav ul ul li
+{
+	display: block;
+}
+.mainnav ul ul li  a:visited
+{
+	color: #33CCFF;
+}
+.mainnav ul ul li a:hover
+{
+	color: #33CCFF;
+}
+.mainfooter
+{
+	width: 90%;
+	margin-left:10%;
+	margin-right:5%;
+        
+	height: 65px;
+	float: right;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #000000;
+	margin-top:2000000%;
+	margin-bottom: 20%;
+	font-size: 75%; /*base font size is 14px*/
+	font-family: Arial,'Lucida Sans Unicode';
+}
+.mainfooter p
+{	
+	width: 92%;
+	margin:	1% auto;
+	color: #FFF;
+	font-family: Arial,'Lucida Sans Unicode';
+}
+
+
+
+.mainnav1 nav
+{
+	background-color: seagreen;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.mainnav1 nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+.mainnav1 nav ul li
+{
+	display: inline-block;
+}
+.mainnav1 nav ul li:hover
+
+{
+	background-color: #999;
+}
+.mainnav1 nav ul li a,visited
+{
+	color: #FFF;/*white*/
+	display: block;
+	padding: 15px;
+}
+.mainnav1 nav ul li a:hover
+{
+	display: block;
+	text-shadow:"";
+	text-decoration:none;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-0-transition: all 0.3s ease 0s;
+	color: #33CCFF;/*blue*/
+}
+.mainnav1 nav ul li:hover ul
+{
+	background-color: #000000;
+	display: block;
+	color: #33CCFF;
+}
+.mainnav nav ul ul
+{
+	display: none;
+	position: absolute;
+}
+.mainnav1 ul ul li
+{
+	display: block;
+}
+.mainnav1 ul ul li  a:visited
+{
+	color: #33CCFF;
+}
+.mainnav1 ul ul li a:hover
+{
+	color: #33CCFF;
+}
+
+
+
+
+
